@@ -6,10 +6,13 @@ class SelectionSort {
         int[] arr = { 1, 5, 33, 8, 27, 2, 12, 6, 0, 15 };
         int max, max_i;
 
+        // put the highest number in the remaining part of the array at the end in each iteration of the outer loop
         for( int j = arr.length - 1; j >= 1; j-- ) { // outer loop
+            // start by assumin the first item is the maximum
             max_i = 0;
             max = arr[0];
 
+            // get the maximum in the remaining part of the array
             for( int i = 0; i <= j; i++ ) { // inner loop
                 if( arr[i] > max ) {
                     max = arr[i];

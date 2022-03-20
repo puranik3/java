@@ -1,3 +1,6 @@
+# Selection sort
+n = 1000
+Running time: n^2 -> 1000 * 1000 = 1000000
 arr = { 1, 5, 33, 8, 27, 2, 12, 6, 0, 15 }
 
 for( int j = arr.length - 1; j >= 1; j-- ) { // outer loop
