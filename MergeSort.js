@@ -18,7 +18,7 @@ class MergeSort {
         let k = 0;
 
         // { 1, 5 }        { 8, 33 }
-        if( i <= mid && j <= end ) {
+        while( i <= mid && j <= end ) {
             if( arr[i] < arr[j] ) {
                 temp[k] = arr[i];
                 i++;
